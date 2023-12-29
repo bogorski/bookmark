@@ -1,0 +1,39 @@
+// @import "../../node_modules/bootstrap/scss/bootstrap";
+// $primary: hsl(231, 69%, 60%);
+// $body-bg: #000;
+// $body-color: #111;
+@import "../custom.scss";
+.HeaderComponent {
+	a,
+	button {
+		font-size: 13px;
+		letter-spacing: 0.1rem;
+	}
+	button:hover {
+		background-color: white;
+		color: $secondary;
+	}
+	button {
+		color: white;
+		height: 2.5rem;
+		width: 7rem;
+	}
+
+	a:hover {
+		color: $secondary;
+	}
+	a {
+		color: black;
+	}
+	.btn-close {
+		width: "100px";
+		height: "100px";
+		color: red !important;
+		background-image: url("../assets/svg/icon-arrow.svg") !important;
+		background-size: "cover";
+		border: "none";
+	}
+	.offcanvas {
+		background-color: $dark !important;
+	}
+}

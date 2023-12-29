@@ -1,0 +1,102 @@
+@import "../custom.scss";
+.FeaturesComponent {
+	@media (min-width: 1440px) {
+		.nav-link {
+			// color: $info;
+			border-left: none !important;
+			border-right: none !important;
+			border-top: none !important;
+			border-bottom: 1px solid #dee2e6 !important;
+			//padding: 1.1rem 3.7rem;
+			padding-bottom: 1.62rem;
+			letter-spacing: 0.03rem;
+			width: 15.2rem;
+		}
+		.nav-link:hover {
+			border-left: none !important;
+			border-right: none !important;
+			border-top: none !important;
+			border-bottom: 1px;
+			// margin: 0;
+			// padding-bottom: 0;
+		}
+		.nav-link.active {
+			border-bottom: 1px solid $secondary !important;
+			box-shadow: inset 0 -4px 0 0 $secondary;
+		}
+	}
+	@media (max-width: 1439px) {
+		.ilustrationTabImg {
+			height: 200px;
+			width: auto;
+		}
+		.nav-link {
+			// color: $info;
+			border-left: none !important;
+			border-right: none !important;
+			// border-top: none !important;
+			border-top: 1px solid #dee2e6 !important;
+			border-bottom: 1px solid #dee2e6 !important;
+			border-radius: 0 !important;
+			//padding: 1.1rem 3.7rem;
+			// padding-bottom: 1.62rem;
+			padding: 1.05rem 0;
+			letter-spacing: 0.03rem;
+			width: 19.5rem;
+		}
+		.nav-link:hover {
+			border-left: none !important;
+			border-right: none !important;
+			//border-top: none !important;
+			border-top: 1px;
+			border-bottom: 1px;
+			// margin: 0;
+			// padding-bottom: 0;
+		}
+		.nav-link.active {
+			border-top: 1px solid #dee2e6;
+			border-bottom: 1px solid $secondary !important;
+			box-shadow: inset 0 -4px 0 0 $secondary;
+		}
+	}
+	p {
+		letter-spacing: 0.01rem;
+	}
+	.nav-tabs {
+		border: none;
+		//width: 45.6rem;
+	}
+	// .nav-link {
+	// 	// color: $info;
+	// 	border-left: none !important;
+	// 	border-right: none !important;
+	// 	border-top: none !important;
+	// 	border-bottom: 1px solid #dee2e6 !important;
+	// 	//padding: 1.1rem 3.7rem;
+	// 	padding-bottom: 1.62rem;
+	// 	letter-spacing: 0.03rem;
+	// 	width: 15.2rem;
+	// }
+	// .nav-link:hover {
+	// 	border-left: none !important;
+	// 	border-right: none !important;
+	// 	border-top: none !important;
+	// 	border-bottom: 1px;
+	// 	// margin: 0;
+	// 	// padding-bottom: 0;
+	// }
+	// .nav-link.active {
+	// 	border-bottom: 1px solid $secondary !important;
+	// 	box-shadow: inset 0 -4px 0 0 $secondary;
+	// }
+	.tab-pane {
+		height: 500px;
+	}
+	h5 {
+		letter-spacing: 0.06rem;
+	}
+	h5 + p {
+		font-size: 15px;
+		line-height: 1.7;
+	}
+}

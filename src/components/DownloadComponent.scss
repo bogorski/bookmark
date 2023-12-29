@@ -1,0 +1,20 @@
+.DownloadComponent {
+	p {
+		line-height: 1.6;
+	}
+	h5 + p {
+		font-size: 15px;
+	}
+	h5 {
+		letter-spacing: 0.05rem;
+	}
+	.card {
+		width: 17.5rem;
+		height: 23rem;
+	}
+	@media (min-width: 1440px) {
+		.browserList {
+			height: 31.7rem;
+		}
+	}
+}

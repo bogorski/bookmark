@@ -1,0 +1,32 @@
+@import "../custom.scss";
+.DownloadCard {
+	.card-img-top {
+		width: auto;
+		height: 7.1rem;
+		padding-top: 1rem;
+	}
+	button {
+		font-size: 15px;
+		color: white;
+		height: 3rem;
+		width: 14.5rem;
+		max-width: auto;
+	}
+	button:hover {
+		background-color: white;
+		color: $primary;
+	}
+	.card-title {
+		font-size: 20px;
+	}
+	.card-text {
+		font-size: 15px;
+	}
+	.card-img.overlay {
+		padding-top: 17rem;
+	}
+	.card-img-overlay {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}

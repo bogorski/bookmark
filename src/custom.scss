@@ -1,0 +1,176 @@
+@import "../node_modules/bootstrap/scss/functions";
+$primary: hsl(231, 69%, 60%);
+$secondary: hsl(0, 94%, 66%);
+$light: hsl(0, 0%, 97%);
+$dark: hsl(229, 31%, 21%);
+$info: hsl(229, 8%, 60%);
+$font-size-base: 1.125rem;
+
+// $theme-colors: (
+// 	primary: $primary,
+// 	secondary: $secondary,
+// 	light: $light,
+// 	dark: $dark,
+// 	info: $info,
+// );
+
+$font-family: "Rubik", sans-serif;
+
+@import "../node_modules/bootstrap/scss/variables";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+
+// Szarawy: hsl(229, 8%, 60%)
+// Ciemny niebieski: hsl(229, 31%, 21%)
+// font-size: 18px
+// - Family: [Rubik](https://fonts.google.com/specimen/Rubik)
+// - Weights: 400, 500
+// - Mobile: 375px
+// - Desktop: 1440px
+// @for $i from 1 through 100 {
+// 	$i: $spacer * $i/10;
+// }
+$spacers: (
+	0: $spacer * 0,
+	1: $spacer * 0.1,
+	2: $spacer * 0.2,
+	3: $spacer * 0.3,
+	4: $spacer * 0.4,
+	5: $spacer * 0.5,
+	7: $spacer * 0.7,
+	8: $spacer * 0.8,
+	9: $spacer * 0.9,
+	10: $spacer * 1,
+	11: $spacer * 1.1,
+	12: $spacer * 1.2,
+	13: $spacer * 1.3,
+	15: $spacer * 1.5,
+	16: $spacer * 1.6,
+	17: $spacer * 1.7,
+	18: $spacer * 1.8,
+	20: $spacer * 2,
+	21: $spacer * 2.1,
+	22: $spacer * 2.2,
+	23: $spacer * 2.3,
+	24: $spacer * 2.4,
+	25: $spacer * 2.5,
+	26: $spacer * 2.6,
+	27: $spacer * 2.7,
+	28: $spacer * 2.8,
+	29: $spacer * 2.9,
+	30: $spacer * 3,
+	31: $spacer * 3.1,
+	32: $spacer * 3.2,
+	33: $spacer * 3.3,
+	35: $spacer * 3.5,
+	36: $spacer * 3.6,
+	38: $spacer * 3.8,
+	40: $spacer * 4,
+	42: $spacer * 4.2,
+	43: $spacer * 4.3,
+	45: $spacer * 4.5,
+	46: $spacer * 4.6,
+	50: $spacer * 5,
+	51: $spacer * 5.1,
+	54: $spacer * 5.4,
+	65: $spacer * 6.5,
+	66: $spacer * 6.6,
+	70: $spacer * 7,
+	76: $spacer * 7.6,
+	80: $spacer * 8,
+	85: $spacer * 8.5,
+	87: $spacer * 8.7,
+	90: $spacer * 9,
+	91: $spacer * 9.1,
+	96: $spacer * 9.6,
+	100: $spacer * 10,
+	120: $spacer * 13,
+);
+$offcanvas-bg-color: hsl(229, 31%, 21%, 0.9);
+$offcanvas-horizontal-width: 100vw;
+$offcanvas-vertical-height: 100vh;
+$offcanvas-padding-y: 0;
+$offcanvas-padding-x: 0;
+$box-shadow: (0 0.25rem 0.25rem rgba($info, 0.25));
+$box-shadow-lg: (0 0.625rem 0.625rem rgba($info, 0.125));
+$nav-link-font-size: 16px;
+$nav-link-color: $info;
+$nav-link-hover-color: $secondary;
+$text-decoration: none;
+$nav-link-transition: none;
+$card-border-radius: 1rem;
+$card-border-color: white;
+// $container-max-widths: (
+// 	xs: 375px,
+// 	sm: 1440px,
+// 	md: 1999px,
+// 	lg: 2000px,
+// 	xl: 2001px,
+// 	xxl: 2002px,
+// );
+// $grid-breakpoints: (
+// 	xs: 0,
+// 	sm: 1440px,
+// 	md: 1999px,
+// 	lg: 2000px,
+// 	xl: 2001px,
+// 	xxl: 2002px,
+// );
+$grid-breakpoints: (
+	xs: 0,
+	sm: 375px,
+	md: 1440px,
+);
+
+$container-max-widths: (
+	sm: 375px,
+	md: 1440px,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+// p {
+// 	white-space: pre-line;
+// 	color: $info;
+// }
+// // button {
+// // 	box-shadow: 0px 4px 4px 0px hsl(229, 31%, 21%, 0.2);
+// // 	padding: 0.5rem 1rem !important;
+// // 	font-size: 13px !important;
+// // }
+// .roundedShapeRight,
+// .roundedShapeLeft {
+// 	height: 352px;
+// 	background-color: $primary;
+// 	overflow: hidden;
+// 	position: absolute;
+// 	z-index: -1;
+// }
+// .roundedShapeRight {
+// 	width: 514px;
+// 	right: 0;
+// 	top: 336px;
+// 	border-top-left-radius: 176px;
+// 	border-bottom-left-radius: 176px;
+// }
+// .roundedShapeLeft {
+// 	width: 814px;
+// 	left: 0;
+// 	top: 1196px;
+// 	border-top-right-radius: 176px;
+// 	border-bottom-right-radius: 176px;
+// }
+
+// // .myImg {
+// // 	top: 193px; //229px realnie od góry, jeżeli ma być realnie 202px muszę odjąć 9px;
+// // 	position: absolute;
+// // 	display: block;
+// // 	right: 52px; //odjac 39px
+// // 	height: 466px; // 466px;
+// // 	//width: auto;
+// // 	margin: 0;
+// // 	padding: 0;
+// // 	border: none;
+// // }
+
+// h1 {
+// 	letter-spacing: 0.1rem;
+// }
