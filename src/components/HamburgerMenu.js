@@ -1,13 +1,4 @@
-import {
-	Container,
-	Row,
-	Col,
-	Form,
-	Button,
-	Nav,
-	Image,
-	Offcanvas,
-} from "react-bootstrap";
+import { Row, Col, Button, Nav, Image, Offcanvas } from "react-bootstrap";
 import "./HamburgerMenu.scss";
 import LogoBookmarkHamburger from "../assets/svg/logo-bookmark-hamburger.svg";
 import IconTwitter from "../assets/svg/icon-twitter.svg";

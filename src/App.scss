@@ -4,10 +4,12 @@
 	position: relative;
 	font-size: 18px;
 	font-family: "Rubik";
-	//font-style: italic;
 	font-style: normal;
 	box-sizing: border-box;
 	padding: 0 !important;
+	h1 {
+		letter-spacing: 0.1rem;
+	}
 	.btnMoreInfo {
 		font-size: 13px;
 		height: 3rem;
@@ -22,30 +24,19 @@
 		white-space: pre-line;
 		color: $info;
 	}
-	// button {
-	// 	box-shadow: 0px 4px 4px 0px hsl(229, 31%, 21%, 0.2);
-	// 	padding: 0.5rem 1rem !important;
-	// 	font-size: 13px !important;
-	// }
 	@media (min-width: 1440px) {
 		.roundedShapeRight,
 		.roundedShapeLeft {
 			height: 352px;
-			background-color: $primary;
-			overflow: hidden;
-			position: absolute;
-			z-index: -1;
 		}
 		.roundedShapeRight {
 			width: 515px;
-			right: 0;
 			top: 336px;
 			border-top-left-radius: 176px;
 			border-bottom-left-radius: 176px;
 		}
 		.roundedShapeLeft {
 			width: 640px;
-			left: 0;
 			top: 1196px;
 			border-top-right-radius: 176px;
 			border-bottom-right-radius: 176px;
@@ -55,39 +46,31 @@
 		.roundedShapeRight,
 		.roundedShapeLeft {
 			height: 203px;
-			background-color: $primary;
-			overflow: hidden;
-			position: absolute;
-			z-index: -1;
 		}
 		.roundedShapeRight {
 			width: 304px;
-			right: 0;
 			top: 197px;
 			border-top-left-radius: 102px;
 			border-bottom-left-radius: 102px;
 		}
 		.roundedShapeLeft {
 			width: 308px;
-			left: 0;
 			top: 1338px;
 			border-top-right-radius: 102px;
 			border-bottom-right-radius: 102px;
 		}
 	}
-	// .myImg {
-	// 	top: 193px; //229px realnie od góry, jeżeli ma być realnie 202px muszę odjąć 9px;
-	// 	position: absolute;
-	// 	display: block;
-	// 	right: 52px; //odjac 39px
-	// 	height: 466px; // 466px;
-	// 	//width: auto;
-	// 	margin: 0;
-	// 	padding: 0;
-	// 	border: none;
-	// }
-
-	h1 {
-		letter-spacing: 0.1rem;
+	.roundedShapeRight,
+	.roundedShapeLeft {
+		background-color: $primary;
+		overflow: hidden;
+		position: absolute;
+		z-index: -1;
+	}
+	.roundedShapeRight {
+		right: 0;
+	}
+	.roundedShapeLeft {
+		left: 0;
 	}
 }

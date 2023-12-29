@@ -8,23 +8,7 @@ import FooterComponent from "./components/FooterComponent";
 import ContactComponent from "./components/ContactComponent";
 import ModalEasySharing from "./components/ModalEasySharing";
 import HamburgerMenu from "./components/HamburgerMenu";
-// import Container from "react-bootstrap/Container";
-import IllustrationHero from "./assets/svg/illustration-hero.svg";
-import LogoBookmarkWhite from "./assets/svg/logo-bookmark-white.svg";
-import LogoBookmarkHamburger from "./assets/svg/logo-bookmark-hamburger.svg";
-
-import IconHamburger from "./assets/svg/icon-hamburger.svg";
-import IconClose from "./assets/svg/icon-close.svg";
-import {
-	Container,
-	Row,
-	Col,
-	Form,
-	Button,
-	Nav,
-	Image,
-	Offcanvas,
-} from "react-bootstrap";
+import { Container, Col } from "react-bootstrap";
 import { useState, useEffect } from "react";
 
 function App() {

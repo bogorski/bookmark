@@ -5,30 +5,13 @@ $light: hsl(0, 0%, 97%);
 $dark: hsl(229, 31%, 21%);
 $info: hsl(229, 8%, 60%);
 $font-size-base: 1.125rem;
-
-// $theme-colors: (
-// 	primary: $primary,
-// 	secondary: $secondary,
-// 	light: $light,
-// 	dark: $dark,
-// 	info: $info,
-// );
-
 $font-family: "Rubik", sans-serif;
 
 @import "../node_modules/bootstrap/scss/variables";
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,400;1,500&display=swap");
 
-// Szarawy: hsl(229, 8%, 60%)
-// Ciemny niebieski: hsl(229, 31%, 21%)
-// font-size: 18px
-// - Family: [Rubik](https://fonts.google.com/specimen/Rubik)
-// - Weights: 400, 500
-// - Mobile: 375px
-// - Desktop: 1440px
-// @for $i from 1 through 100 {
-// 	$i: $spacer * $i/10;
-// }
+$font-size-sm: $font-size-base;
+$font-size-lg: $font-size-base;
 $spacers: (
 	0: $spacer * 0,
 	1: $spacer * 0.1,
@@ -99,22 +82,6 @@ $text-decoration: none;
 $nav-link-transition: none;
 $card-border-radius: 1rem;
 $card-border-color: white;
-// $container-max-widths: (
-// 	xs: 375px,
-// 	sm: 1440px,
-// 	md: 1999px,
-// 	lg: 2000px,
-// 	xl: 2001px,
-// 	xxl: 2002px,
-// );
-// $grid-breakpoints: (
-// 	xs: 0,
-// 	sm: 1440px,
-// 	md: 1999px,
-// 	lg: 2000px,
-// 	xl: 2001px,
-// 	xxl: 2002px,
-// );
 $grid-breakpoints: (
 	xs: 0,
 	sm: 375px,
@@ -127,50 +94,3 @@ $container-max-widths: (
 );
 
 @import "../node_modules/bootstrap/scss/bootstrap";
-// p {
-// 	white-space: pre-line;
-// 	color: $info;
-// }
-// // button {
-// // 	box-shadow: 0px 4px 4px 0px hsl(229, 31%, 21%, 0.2);
-// // 	padding: 0.5rem 1rem !important;
-// // 	font-size: 13px !important;
-// // }
-// .roundedShapeRight,
-// .roundedShapeLeft {
-// 	height: 352px;
-// 	background-color: $primary;
-// 	overflow: hidden;
-// 	position: absolute;
-// 	z-index: -1;
-// }
-// .roundedShapeRight {
-// 	width: 514px;
-// 	right: 0;
-// 	top: 336px;
-// 	border-top-left-radius: 176px;
-// 	border-bottom-left-radius: 176px;
-// }
-// .roundedShapeLeft {
-// 	width: 814px;
-// 	left: 0;
-// 	top: 1196px;
-// 	border-top-right-radius: 176px;
-// 	border-bottom-right-radius: 176px;
-// }
-
-// // .myImg {
-// // 	top: 193px; //229px realnie od góry, jeżeli ma być realnie 202px muszę odjąć 9px;
-// // 	position: absolute;
-// // 	display: block;
-// // 	right: 52px; //odjac 39px
-// // 	height: 466px; // 466px;
-// // 	//width: auto;
-// // 	margin: 0;
-// // 	padding: 0;
-// // 	border: none;
-// // }
-
-// h1 {
-// 	letter-spacing: 0.1rem;
-// }

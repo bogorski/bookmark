@@ -1,4 +1,4 @@
-import { Container, Row, Col, Accordion, Button, Card } from "react-bootstrap";
+import { Container, Row, Col, Accordion, Button } from "react-bootstrap";
 import "./QuestionsComponent.scss";
 
 function QuestionsComponent() {
@@ -37,7 +37,7 @@ function QuestionsComponent() {
 		</>
 	);
 	return (
-		<Container className="QuestionsComponent pt-70 pb-66 py-md-32">
+		<Container className="QuestionsComponent pt-66 pb-70 py-md-32">
 			<Row>
 				<Col md={12} className="text-center">
 					<Row>
@@ -50,9 +50,9 @@ function QuestionsComponent() {
 							</p>
 						</Col>
 						<Col sm={12} className="d-block d-md-none">
-							<h5 className="">
+							<h3 className="">
 								Frequently Asked <br /> Questions
-							</h5>
+							</h3>
 							<p className="pt-5">
 								Here are some of our FAQs. If you have any <br />
 								other questions you'd like answered please <br />
@@ -64,7 +64,7 @@ function QuestionsComponent() {
 				<Col
 					sm={{ span: 12, offset: 0 }}
 					md={{ span: 8, offset: 2 }}
-					className="py-17 ps-18 pe-4 px-md-76 py-md-25"
+					className="py-20 ps-18 pe-4 px-md-76 py-md-25"
 				>
 					<Accordion className="">
 						<Accordion.Item eventKey="0" className="">
@@ -113,7 +113,7 @@ function QuestionsComponent() {
 						</Accordion.Item>
 					</Accordion>
 				</Col>
-				<Col md={12} className="text-center py-11 py-md-7">
+				<Col md={12} className="text-center py-7">
 					<Button variant="primary" className="btnMoreInfo shadow">
 						More info
 					</Button>

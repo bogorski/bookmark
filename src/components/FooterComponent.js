@@ -12,11 +12,11 @@ function FooterComponent() {
 	const [isHoveredFacebook, setIsHoveredFacebook] = useState(false);
 	const [isHoveredTwitter, setIsHoveredTwitter] = useState(false);
 	return (
-		<Container className="bg-dark FooterComponent py-22 py-md-15">
+		<Container className="bg-dark FooterComponent pt-22 pb-20 py-md-15">
 			<Col sm={12} className="px-md-85">
 				<Row className=" align-items-md-center">
 					<Col sm={12} md={8}>
-						<Nav className="align-items-md-center px-md-10 flex-sm-column flex-md-row">
+						<Nav className="align-items-center px-md-10 flex-sm-column flex-md-row">
 							<Navbar.Brand className="pe-md-30">
 								<Image src={LogoBookmarkWhite} alt="Bookmark Logo"></Image>
 							</Navbar.Brand>
@@ -25,16 +25,16 @@ function FooterComponent() {
 								FEATURES
 							</Nav.Link>
 
-							<Nav.Link href="#pricing" className="pe-md-18 pt-17 py-md-0">
+							<Nav.Link href="#pricing" className="pe-md-18 pt-11 py-md-0">
 								PRICING
 							</Nav.Link>
 
-							<Nav.Link href="#contact" className=" pt-17 py-md-0">
+							<Nav.Link href="#contact" className=" pt-11 py-md-0">
 								CONTACT
 							</Nav.Link>
 						</Nav>
 					</Col>
-					<Col sm={12} md={4} className="pt-22 pt-md-0">
+					<Col sm={12} md={4} className="pt-20 pt-md-0">
 						<Nav className="justify-content-center justify-content-md-end  pt-md-0">
 							<Nav.Link
 								href="https://www.facebook.com"

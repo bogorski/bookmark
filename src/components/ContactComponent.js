@@ -46,10 +46,10 @@ function ContactComponent() {
 						</Col>
 						<Col sm={12} className="d-block d-md-none">
 							<p className=""> {joinedValue} ALREADY JOINED</p>
-							<h5 className="pt-2">
+							<h3 className="pt-2">
 								Stay up-to-date with what <br />
 								we're doing
-							</h5>
+							</h3>
 						</Col>
 					</Row>
 				</Col>
@@ -83,7 +83,7 @@ function ContactComponent() {
 						</Stack>
 					</Form>
 				</Col>
-				<Col sm={12} className="d-block d-md-none pt-15 pb-38">
+				<Col sm={12} className="d-block d-md-none pt-10 pb-38">
 					<Form onSubmit={handleSubmit} className={error ? "has-error" : ""}>
 						<Stack
 							direction="vertical"
@@ -99,10 +99,7 @@ function ContactComponent() {
 									placeholder="Enter your email address"
 									isInvalid={!!error}
 								/>
-								<Form.Control.Feedback
-									type="invalid"
-									// style={{ position: "absolute" }}
-								>
+								<Form.Control.Feedback type="invalid">
 									{error}
 								</Form.Control.Feedback>
 							</Form.Group>

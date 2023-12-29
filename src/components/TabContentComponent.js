@@ -5,14 +5,14 @@ function TabContentComponent({ heading, text, textMobile, src, alt }) {
 	return (
 		<Container className="TabContentComponent pt-45 pt-md-0">
 			<Row>
-				<Col md={6} className="d-md-flex justify-content-md-end">
+				<Col md={6} className="d-md-flex justify-content-md-end ">
 					<Image
-						className="px-5 px-md-1 ilustrationTabImg"
+						className="px-5 px-md-1 ilustrationTabImg "
 						src={src}
 						alt={alt}
 					></Image>
 				</Col>
-				<Col md={6} className="pt-2 pt-md-0 ps-md-70">
+				<Col md={6} className="pt-2 pt-md-0 ps-md-70 ">
 					<Row>
 						<Col md={12} className="d-none d-md-block">
 							<h3 className="pt-md-40">{heading}</h3>

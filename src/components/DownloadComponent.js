@@ -7,7 +7,7 @@ import "./DownloadComponent.scss";
 
 function DownloadComponent() {
 	return (
-		<Container className="DownloadComponent py-md-50 text-md-center">
+		<Container className="DownloadComponent py-md-50 text-center">
 			<Row>
 				<Col md={12}>
 					<Row>
@@ -20,7 +20,7 @@ function DownloadComponent() {
 								you've got a favourite you'd like us to prioritize.
 							</p>
 						</Col>
-						<Col sm={12} className="d-block d-md-none pt-91">
+						<Col sm={12} className="d-block d-md-none pt-91 ">
 							<h5>Download the extension</h5>
 							<p className="pt-5">
 								We've got more browsers in the pipeline. <br />
@@ -31,8 +31,8 @@ function DownloadComponent() {
 					</Row>
 				</Col>
 				<Col md={12}>
-					<Row className="py-18 px-md-76 browserList">
-						<Col sm={12} md={4} className="align-self-md-start pb-27 pb-md-0">
+					<Row className="py-20 py-md-18 px-md-76 browserList">
+						<Col sm={12} md={4} className="align-self-md-start pb-27 pb-md-0 ">
 							<DownloadCard
 								src={LogoChrome}
 								browser={"Chrome"}

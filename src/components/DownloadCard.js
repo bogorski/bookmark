@@ -1,10 +1,10 @@
-import { Button, Card, Image } from "react-bootstrap";
+import { Button, Card } from "react-bootstrap";
 import Dots from "../assets/svg/bg-dots.svg";
 import "./DownloadCard.scss";
 
 function DownloadCard({ src, browser, version }) {
 	return (
-		<Card className="DownloadCard mx-md-auto shadow-lg">
+		<Card className="DownloadCard mx-auto shadow-lg">
 			<Card.Img className="overlay" src={Dots} alt={"Dots"} />
 			<Card.ImgOverlay>
 				<Card.Img

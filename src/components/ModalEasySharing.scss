@@ -1,13 +1,31 @@
 @import "../custom.scss";
-.ModalEasySharing {
-	// .btnMoreInfo2 {
-	// 	font-size: 13px !important;
-	// 	height: 3rem;
-	// 	width: 7rem;
-	// 	letter-spacing: 0.06rem;
-	// }
-	// .btnMoreInfo2:hover {
-	// 	background-color: white;
-	// 	color: $primary;
-	// }
+.modal-body,
+.modal-title {
+	font-size: 18px;
+	font-family: "Rubik";
+}
+.modal-body {
+	button {
+		font-size: 13px !important;
+		height: 3rem;
+		width: 7rem;
+		letter-spacing: 0.06rem;
+	}
+	button:hover {
+		background-color: white;
+		color: $primary;
+	}
+	@media (max-width: 1439px) {
+		.ilustrationTabImg {
+			height: 200px;
+			width: auto;
+		}
+		p {
+			letter-spacing: 0.001rem;
+			line-height: 1.6 !important;
+			white-space: pre-line;
+			color: $info;
+			font-size: 16px;
+		}
+	}
 }

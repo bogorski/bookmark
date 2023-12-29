@@ -1,6 +1,5 @@
-import IllustrationHero from "../assets/svg/illustration-hero.svg";
 import IllustrationTab3 from "../assets/svg/illustration-features-tab-3.svg";
-import { Container, Modal, Button } from "react-bootstrap";
+import { Container, Modal } from "react-bootstrap";
 import TabContentComponent from "./TabContentComponent";
 import "./ModalEasySharing.scss";
 function ModalEasySharing({ show, handleClose }) {
@@ -16,6 +15,9 @@ function ModalEasySharing({ show, handleClose }) {
 						text={`Easily shate you bookmarks and collections with
                                 others. Create a shareable link that you can send at
                                 the click of a button.`}
+						textMobile={`Easily shate you bookmarks and collections 
+						with others. Create a shareable link 
+						that you can send at the click of a button.`}
 						src={IllustrationTab3}
 						alt={"Illustration features tab 3"}
 					></TabContentComponent>

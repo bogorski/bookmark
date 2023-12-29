@@ -29,14 +29,10 @@
 		.accordion-item {
 			border-top: none;
 		}
-	}
-	h5 {
-		letter-spacing: 0.05rem;
-		line-height: 1.3;
-	}
-	h5 + p {
-		font-size: 15px;
-		line-height: 1.7;
+		p {
+			font-size: 15px;
+			line-height: 1.7;
+		}
 	}
 
 	.accordion-button:not(.collapsed) {
@@ -66,7 +62,4 @@
 		border-right: none;
 		border-radius: 0 !important;
 	}
-	// .accordion-item:hover {
-	// 	border-top: bottom;
-	// }
 }

@@ -2,17 +2,17 @@
 .FooterComponent {
 	@media (min-width: 1440px) {
 		a {
-			color: white;
 			font-size: 13px;
-			letter-spacing: 0.1rem;
 		}
 	}
 	@media (max-width: 1439px) {
 		a {
-			color: white;
 			font-size: 15px;
-			letter-spacing: 0.1rem;
 		}
+	}
+	a {
+		color: white;
+		letter-spacing: 0.1rem;
 	}
 	a:hover {
 		color: $secondary;

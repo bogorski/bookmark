@@ -3,17 +3,17 @@ import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import "./InfoComponent.scss";
 function InfoComponent() {
 	return (
-		<Container className="InfoComponent pb-65 py-md-35">
+		<Container className="InfoComponent pb-65 py-0 py-md-35">
 			<div className="roundedShapeRight"></div>
 			<Row>
 				<Col
 					sm={12}
 					md={6}
 					order={{ sm: 2, md: 1 }}
-					className="py-md-40 ps-md-23 order-sm-2 order-md-1"
+					className="py-0 ps-0 py-md-40 ps-md-23 order-sm-2 order-md-1"
 				>
 					<Row>
-						<Col sm={12} className="d-none d-md-block">
+						<Col md={12} className="d-none d-md-block">
 							<h1 className="py-md-10">
 								A Simple Bookmark <br />
 								Manager
@@ -24,11 +24,14 @@ function InfoComponent() {
 								instantly. Try it for free.
 							</p>
 						</Col>
-						<Col sm={12} className="d-block d-md-none text-center pt-36 pb-8">
-							<h3 className="pb-5">
+						<Col
+							sm={12}
+							className="d-block d-md-none text-center pt-36 pb-8 pe-2"
+						>
+							<h1 className="pb-5">
 								A Simple Bookmark <br />
 								Manager
-							</h3>
+							</h1>
 							<p>
 								A clean and simple interface to organize <br />
 								your favourite websites. Open a new <br />
@@ -36,7 +39,7 @@ function InfoComponent() {
 								instantly. Try it for free.
 							</p>
 						</Col>
-						<Col sm={12} className="px-10 px-md-8">
+						<Col sm={12} className="px-16 px-md-8">
 							<Button
 								className="mx-10 mx-md-0 my-md-10 shadow"
 								variant="primary"
